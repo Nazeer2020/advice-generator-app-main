@@ -24,3 +24,6 @@ function updatingUI(res) {
 }
 
 btn.addEventListener("click", getAdvice);
+
+
+window.addEventListener('load',getAdvice);
